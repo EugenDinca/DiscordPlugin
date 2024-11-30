@@ -14,7 +14,7 @@ namespace DiscordPlugin
     public class DiscordPluginConfig : BasePluginConfig
     {
         [JsonPropertyName("discord_link")]
-        public string DiscordLink { get; set; } = "{orange}Join our Discord server: {lightblue}https://discord.gg/yourdiscordlink";
+        public string DiscordLink { get; set; } = "{orange}Join our Discord server: {lightblue}https://strike-zone.ro/discord";
 
         [JsonPropertyName("bot_token")]
         public string BotToken { get; set; } = "your_bot_token";
